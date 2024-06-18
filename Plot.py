@@ -22,7 +22,7 @@ maindf = pd.read_csv('USDT-USD.csv')
 
 closedf = maindf[['Date', 'Close']]
 
-closedf = closedf[closedf['Date'] > '2021-06-09']
+closedf = closedf[closedf['Date'] > '2021-06-19']
 close_tether = closedf.copy()
 
 del closedf['Date']
